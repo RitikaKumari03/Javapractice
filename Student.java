@@ -1,4 +1,4 @@
-package org.example;
+
 
 
     //non static class
@@ -23,4 +23,6 @@ package org.example;
             student.study();
         }
     }
+
+
 

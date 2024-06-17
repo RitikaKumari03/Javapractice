@@ -1,7 +1,9 @@
 package org.example;
 
+
+
 // static class
-    public class Student1   {
+public class Student1   {
     static int age;
     static String name;
     static int rollno;
@@ -20,4 +22,11 @@ package org.example;
         Student1.study();
     }
 }
+
+
+
+
+
+
+
 

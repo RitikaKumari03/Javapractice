@@ -14,34 +14,14 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-</project>
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>2.2.224</version>
+            <scope>test</scope>
+        </dependency>
 
 
-Public class student{
-
-  int age;
-
-  int roll no;
-
-  string student id;
-}
- public void study();{
-
-}
-  public void eat();{
-
-}
-
-public void main(string args[]) {
-
-
-  student student = new student;
-  student.study;
-  studnt.eat;
-}
-}
-
-
-}
-}
 

@@ -7,7 +7,6 @@ import java.sql.Statement;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
         Test test = new Test();
         try (Connection connection = test.getConnection()) {
             Statement statement = connection.createStatement();
@@ -36,6 +35,11 @@ public class Main {
         System.out.println("I am testing");
     }
 }
+
+
+
+
+
 
 
 

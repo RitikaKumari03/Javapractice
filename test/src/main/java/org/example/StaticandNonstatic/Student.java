@@ -1,16 +1,18 @@
+package org.example.StaticandNonstatic;
 
+public class Student {
 
-
-    //non static class
-    public class Student {
         int age;
         String name;
         String studentId;
 
         public void study() {
+            System.out.println(age);
         }
 
         public void eat() {
+            System.out.println(name);
+
         }
     }
 
@@ -23,6 +25,5 @@
             student.study();
         }
     }
-
 
 

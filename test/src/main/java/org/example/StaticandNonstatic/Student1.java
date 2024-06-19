@@ -1,6 +1,6 @@
+package org.example.StaticandNonstatic;
 
-// static class
-    public class Student1   {
+public class Student1 {
         static int age;
         static String name;
         static int rollno;
@@ -19,7 +19,5 @@
             Student1.study();
         }
     }
-
-
 
 

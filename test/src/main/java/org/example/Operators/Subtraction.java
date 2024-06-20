@@ -20,7 +20,16 @@ public class Subtraction {
             System.out.println("The number is greater than 20");
             System.out.println(subtract);
         }
+
         }
+
+    public static void main(String[] args) {
+        Subtraction s=new Subtraction();
+        s.number1=1;
+        s.number2=2;
+        s.subtraction();
+
+    }
 
         }
 

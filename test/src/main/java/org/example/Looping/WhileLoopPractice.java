@@ -4,18 +4,22 @@ public class WhileLoopPractice {
     int i = 0;
 
     public void whileloop() {
-        do {
+        do{
             System.out.println(i);
             i++;
-        }
-        while (i < 10);
+    }
+        while(i<10);
+
     }
 
-    public static void main(String args[]) {
+    public static void main (String args[]){
         WhileLoopPractice w = new WhileLoopPractice();
         w.whileloop();
-    }
-}
+            }
+        }
+
+
+
 
 
 

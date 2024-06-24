@@ -1,4 +1,4 @@
-package org.example.thisclass;
+package org.example.ThisKeyword;
 
 public class ThisClass {
    public int age;

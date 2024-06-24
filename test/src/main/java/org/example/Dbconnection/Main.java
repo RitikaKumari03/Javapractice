@@ -27,14 +27,15 @@ public class Main {
                 String createTableQuery = "CREATE TABLE if not exists Company("
                         + "NAME VARCHAR(50),"
                         + "NOOFEMPLOYEE VARCHAR(50),"
-                        + "ADDRESS VARCHAR(50))";
-                statement.execute(createTableQuery);
-                System.out.println("Table created succesfully,");
-                String query = STR."INSERT INTO Company(NAME,NOOFEMPLOYEE,ADDRESS)values('\{c.name}','\{c.NoOfEmployees}' ,'\{c.address}')";
-                statement.executeUpdate(query);
-                String querySelect = "SELECT * from Company";
-                ResultSet result = statement.executeQuery(querySelect);
-                System.out.println(result.getRow());} catch (SQLException e) {
+                        + "ADDRESS VARCHAR(50))"
+      statement.execute(createTableQuery);
+        System.out.println("Table created succesfully,");
+      String query = STR."INSERT INTO Company(NAME,NOOFEMPLOYEE,ADDRESS)values('\{c.name}','\{c.NoOfEmployees}' ,'\{c.address}')";
+        statement.executeUpdate(query);
+      String querySelect = "SELECT * from Company";
+        ResultSet result = statement.executeQuery(querySelect);
+      System.out.println(result.getRow());}
+            catch (SQLException e) {
                 e.printStackTrace();
             }
         }

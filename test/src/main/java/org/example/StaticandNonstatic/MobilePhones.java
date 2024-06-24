@@ -15,12 +15,14 @@ public class MobilePhones {
     }
 
     public static void main(String[] args) {
-        MobilePhones.color = "black";
-        MobilePhones.brand = "nokia";
-        MobilePhones.modelid=12234;
-        cameraquality();
-        calling();
-    }
+      MobilePhones.color = "black";
+       MobilePhones.brand = "nokia";
+       MobilePhones.modelid=12234;
+       cameraquality();
+       calling();
+   }
+
+
 
 }
 

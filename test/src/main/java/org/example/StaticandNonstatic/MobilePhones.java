@@ -11,7 +11,6 @@ public class MobilePhones {
 
     public static void calling() {
         System.out.println(modelid);
-
     }
 
     public static void main(String[] args) {
@@ -21,9 +20,6 @@ public class MobilePhones {
        cameraquality();
        calling();
    }
-
-
-
 }
 
 

@@ -27,7 +27,7 @@ public class Main {
                 String createTableQuery = "CREATE TABLE if not exists Company("
                         + "NAME VARCHAR(50),"
                         + "NOOFEMPLOYEE VARCHAR(50),"
-                        + "ADDRESS VARCHAR(50))"
+                        + "ADDRESS VARCHAR(50))";
       statement.execute(createTableQuery);
         System.out.println("Table created succesfully,");
       String query = STR."INSERT INTO Company(NAME,NOOFEMPLOYEE,ADDRESS)values('\{c.name}','\{c.NoOfEmployees}' ,'\{c.address}')";
